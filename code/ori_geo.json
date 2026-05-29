@@ -1,0 +1,161 @@
+{
+  "name": "math_original",
+  "description": "原始数学问题（未替换变量）",
+  "instances": [
+     {
+      "id": 1,
+      "input": "三角形ABC中，∠C=90°，AC>BC，D为AB中点，过点D的直线交AC于点E，如果DE平分三角形ABC的周长，那么(BC/DE)^2=？",
+      "target": "2"
+      },
+     {
+      "id": 2,
+      "input": "如图，在矩形ABCD中，AB=8，BC=6，AC与BD相交于点O，点P是在直线AB上方到AB距离等于3的一个动点，当点O在以点为A圆心，AP为半径长的圆上时，若BP<7，则BP的长为？",
+      "target": "5"
+      },
+     {
+      "id": 4,
+      "input": "如图，已知AB是圆O的直径，C、D是圆O上的两点，且AB⊥CD，垂足为点H，如果AH=CD=8，那么AO的长为_______________．",
+      "target": "5"
+      },
+     {
+      "id": 5,
+      "input": "如图，已知平行四边形ABCD的四个内角的平分线组成四边形EFGH，连接HF．如果AB=6，AD=9，那么HF的长为_______________．",
+      "target": "3"
+      },
+     {
+      "id": 6,
+      "input": "如图，在正方形纸片$ABCD$中，点$E$ 是边 $AD$ 的中点.将该纸片的右下角向上翻折，使点$C$ 与点$E$ 重合，边$BC$ 翻折至$B'E$ 的位置，$B'E$与$AB$ 交于点$P$,那么$\\frac {AP}{PB}$ 的值是多少？",
+      "target": "2"
+      },
+     {
+      "id": 7,
+      "input": "已知正五边形ABCDE，请仅用无刻度的直尺作图，并完成相应的任务（保留作图痕迹，不写作法）．【初步感知】（1）请直接写出∠ABE的度数；",
+      "target": "36"
+      },
+     {
+      "id": 8,
+      "input": "圆$O$是三角形$ABC$ 的外接圆，$OM\\bot AB$,$ON\\bot AC$,垂足分别是点$M$、$N$,如果$BC=3$,那么$2MN=？$",
+      "target": "3"
+      },
+     {
+      "id": 9,
+      "input": "在直角△ABC中，∠C=90°，点G是直角△ABC的重心，如果CG=6，那么斜边AB的长等于________ .",
+      "target": "18"
+      },
+     {
+      "id": 10,
+      "input": "如图，在三角形$ABC$ 中，$BE$ 为中线，$AD$ 平分$\\angle BAC$ ,且$AD\bot BE$ ,分别交$BE$ 、$BC$ 于点$H$、$D$，$EF\\perp BE$，交$BC$ 于点$F, AB=5,\\tan\\angle ABE=\\frac{3}{4}.$ 则 $BE$ 的长是？",
+      "target": "8"
+      },
+     {
+      "id": 11,
+      "input": "如图，在四边形$ABCD$中，$AB//CD,\\angle ABC=90^{\\circ}$。以点$C$为圆心，$DC$长为半径画弧，交边$AD$ 的延长线于点$E.$过点$B$作$AD$的平行线，交线段$EC$的延长线于点$F.$如果$BC=5,\\tan A=\\frac{5}{2}$，那么线段 $CF$ 的长度是？",
+      "target": "2"
+      },
+     {
+      "id": 12,
+      "input": "在平行四边形$ABCD$中，$\\angle A=2\\angle B$ ,则$\\angle D$ =？",
+      "target": "60"
+      },
+     {
+      "id": 13,
+      "input": "如图，在$\\triangle ABC$ 中，$\\angle A=90^{\\circ}$,$\\angle B=30^{\\circ}$,点$O$在边$BC$ 上，以$O$为圆心，$OC$ 为半径的圆与边 $AC$ 交于点$D$,与边$AB$ 相切于点$E$. 当 $BC=12$ 时，圆 $O$ 的半径长是多少？",
+      "target": "4"
+      },
+     {
+      "id": 14,
+      "input": "如图，在梯形$ABCD$中，$AD//BC,\\angle A=90^{\\circ},AD=3,AB=4,BC=6.$点$E$ 在边 $BC$ 上将三角形 $ABE$沿着$AE$翻折，点$B$的对应点为点$F.$如果$EF\\perp CD$ ,那么$3EC$ 是？",
+      "target": "14"
+      },
+     {
+      "id": 15,
+      "input": "如图，已知三角形$ABC$ 中，$\\angle C=90^{\\circ},AC=6,BC=4$,以$A$ 为圆心、2为半径作圆，点$D$ 是圆$A$ 上一点，连接$CD$，点$E$ 是$CD$ 的中点，连接$BE$ ,那么$BE$ 长度的最小值和最大值之和是？",
+      "target": "10"
+      },
+     {
+      "id": 16,
+      "input": "如图，三角形ABC中，BA=BC，以AB为直径作圆O交AC于点D，交BC于点E，过点D作圆O的切线交BC于点F. 若AC=4\\sqrt{5}，tan∠ACB=2，EF的长是多少？",
+      "target": "2",
+      "tag": "2024-哈尔滨道里二模-24"
+      },
+     {
+      "id": 17,
+      "input": "矩形ABCD中，CE平分∠BCD，交直线AD于点E，若CD=3，AE=1，则BC的长的所有可能值之和是多少？",
+      "target": "6",
+      "tag": "2024-哈尔滨sb二模-19"
+      },
+    {
+      "id": 18,
+      "input": "已知AB为圆O的直径，点C为圆O上一点，AD和过点C的切线互相垂直，垂足为D，AD交圆O于点E，若CD=2，AE=3，圆O的直径是多少？",
+      "target": "5",
+      "tag": "2024-哈尔滨dw二模-24"
+      },
+    {
+      "id": 19,
+      "input": "在直角三角形ABC中，∠BAC=90°，D为BC上的点，连结AD，将三角形ABD沿直线AD翻折，点B恰好落在边AC的中点E处，则tan∠ADE的值是多少？",
+      "target": "3",
+      "tag": "2024-哈尔滨xf二模-20"
+      },
+    {
+      "id": 20,
+      "input": "如图，点E在正方形ABCD的对角线AC上，点F在BC的延长线上，连接DF、BE、EF，且BE=EF，若CE=\\sqrt{2}，tan∠CDF=0.75，则线段DF的长是多少？",
+      "target": "10",
+      "tag": "2024-哈尔滨ac一模-20"
+      },
+{
+      "id": 1,
+      "input": "已知三角形ABC相似于三角形DEF，且三角形ABC和三角形DEF的最长边分别是5和10，如果三角形ABC的面积是6，那么三角形DEF的面积是多少？",
+      "target": "24"
+      },
+     {
+      "id": 2,
+      "input": "如图，在三角形ABC中，点G是重心，过点G作GD//AC，交BC于点D，连接CG，如果三角形GCD的面积是2，那么三角形ABC的面积是多少？",
+      "target": "18"
+      },
+     {
+      "id": 3,
+      "input": "如图，已知三角形ABC中，点D、E、F分别在边AB、AC、BC上，DE//BC，EF//AB．如果DE/BC=3/5，AB=15，那么EF是多少？",
+      "target": "6"
+      },
+     {
+      "id": 4,
+      "input": "如图，在三角形ABC中，点G是重心，过点G作GD//BC，交边AC于点D，联结BG，如果三角形ABC的面积是36，那么四边形BGDC的面积是多少？",
+      "target": "16"
+      },
+     {
+      "id": 5,
+      "input": "在三角形ABC中，∠C=90度，正方形CEDF的边CE在边BC上，顶点D、F分别在边AB、AC上．如果BC=3, AC=6，那么正方形CEDF的边长是多少？",
+      "target": "2"
+      },
+     {
+      "id": 6,
+      "input": "如图，D、E分别是三角形ABC的边AB、AC上的点，∠AED=∠B，AF⊥DE，垂足为点F．如果AF=2，BC=6，三角形ABC的面积为9，那么三角形ADE的面积是多少？",
+      "target": "4"
+      },
+     {
+      "id": 7,
+      "input": "在矩形ABCD中，AB=25，BC=65，点E在边DC上，将矩形ABCD沿AE翻折，点D恰好落在边BC上的点F处，那么EC的长是多少？",
+      "target": "12"
+      },
+     {
+      "id": 8,
+      "input": "如图，在矩形ABCD中，AB=100，BC=150．点E在边AD上，连接BE，将三角形ABE沿着BE翻折，点A的对应点是点F，连接FD．如果FD//BE，那么点F到CD的距离是多少？",
+      "target": "54"
+      },
+     {
+      "id": 9,
+      "input": "三角形ABC中，∠ACB=90°，AC=30，BC=40，点D在边BC上，CD=10，如图所示．点E在边AB上，将三角形BDE沿着DE翻折得三角形B’DE，其中点B与点B’对应，B’E交边AC于点G，B’D交AC的延长线于点H．如果三角形B’HG是等腰三角形，那么BE是多少？",
+      "target": "42"
+      },
+     {
+      "id": 10,
+      "input": "如图，在三角形ABC中，∠C=90°，tan B=0.8，E是边AB上一点，将三角形BCE沿直线CE翻折，点B的对应点为B’，如果AB’//BC，那么AE/EB的所有可能值之和是多少？",
+      "target": "2"
+      },
+     {
+      "id": 11,
+      "input": "圆O是三角形ABC的内切圆，分别切AB，BC，AC于点D、E、F，∠B=42°，P是弧EF上一点，则∠DPE的度数是多少？",
+      "target": "69"
+     }
+  ]
+}

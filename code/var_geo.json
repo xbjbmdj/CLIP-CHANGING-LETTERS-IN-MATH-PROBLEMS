@@ -1,0 +1,161 @@
+{
+  "name": "math_original",
+  "description": "原始数学问题（未替换变量）",
+  "instances": [
+          {
+      "id": 1,
+      "input": "三角形LHR中，∠R=90°，LR>HR，X为LH中点，过点X的直线交LR于点B，如果XB平分三角形LHR的周长，那么(HR/XB)^2=？",
+      "target": "2"
+      },
+     {
+      "id": 2,
+      "input": "如图，在矩形LHRX中，LH=8，HR=6，LR与HX相交于点K，点P是在直线LH上方到LH距离等于3的一个动点，当点K在以点为L圆心，LP为半径长的圆上时，若HP<7，则HP的长为？",
+      "target": "5"
+      },
+     {
+      "id": 4,
+      "input": "如图，已知LH是圆K的直径，R、X是圆K上的两点，且LH⊥RX，垂足为点U，如果LU=RX=8，那么LK的长为_______________．",
+      "target": "5"
+      },
+     {
+      "id": 5,
+      "input": "如图，已知平行四边形LHRX的四个内角的平分线组成四边形BJGU，连接UJ．如果LH=6，LX=9，那么UJ的长为_______________．",
+      "target": "3"
+      },
+     {
+      "id": 6,
+      "input": "如图，在正方形纸片$LHRX$中，点$B$ 是边 $LX$ 的中点.将该纸片的右下角向上翻折，使点$R$ 与点$B$ 重合，边$HR$ 翻折至$H'B$ 的位置，$H'B$与$LH$ 交于点$P$,那么$\\frac {LP}{PH}$ 的值是多少？",
+      "target": "2"
+      },
+     {
+      "id": 7,
+      "input": "已知正五边形LHRXB，请仅用无刻度的直尺作图，并完成相应的任务（保留作图痕迹，不写作法）．【初步感知】（1）请直接写出∠LHB的度数；",
+      "target": "36"
+      },
+     {
+      "id": 8,
+      "input": "圆$K$是三角形$LHR$ 的外接圆，$KM\\bot LH$,$KN\\bot LR$,垂足分别是点$M$、$N$,如果$HR=3$,那么$2MN=？$",
+      "target": "3"
+      },
+     {
+      "id": 9,
+      "input": "在直角△LHR中，∠R=90°，点G是直角△LHR的重心，如果RG=6，那么斜边LH的长等于________ .",
+      "target": "18"
+      },
+     {
+      "id": 10,
+      "input": "如图，在三角形$LHR$ 中，$HB$ 为中线，$LX$ 平分$\\angle HLR$ ,且$LX\bot HB$ ,分别交$HB$ 、$HR$ 于点$U$、$X$，$BJ\\perp HB$，交$HR$ 于点$J, LH=5,\\tan\\angle LHB=\\frac{3}{4}.$ 则 $HB$ 的长是？",
+      "target": "8"
+      },
+     {
+      "id": 11,
+      "input": "如图，在四边形$LHRX$中，$LH//RX,\\angle LHR=90^{\\circ}$。以点$R$为圆心，$XR$长为半径画弧，交边$LX$ 的延长线于点$B.$过点$H$作$LX$的平行线，交线段$BR$的延长线于点$J.$如果$HR=5,\\tan L=\\frac{5}{2}$，那么线段 $RJ$ 的长度是？",
+      "target": "2"
+      },
+     {
+      "id": 12,
+      "input": "在平行四边形$LHRX$中，$\\angle L=2\\angle H$ ,则$\\angle X$ =？",
+      "target": "60"
+      },
+     {
+      "id": 13,
+      "input": "如图，在$\\triangle LHR$ 中，$\\angle L=90^{\\circ}$,$\\angle H=30^{\\circ}$,点$K$在边$HR$ 上，以$K$为圆心，$KR$ 为半径的圆与边 $LR$ 交于点$X$,与边$LH$ 相切于点$B$. 当 $HR=12$ 时，圆 $K$ 的半径长是多少？",
+      "target": "4"
+      },
+     {
+      "id": 14,
+      "input": "如图，在梯形$LHRX$中，$LX//HR,\\angle L=90^{\\circ},LX=3,LH=4,HR=6.$点$B$ 在边 $HR$ 上将三角形 $LHB$沿着$LB$翻折，点$H$的对应点为点$J.$如果$BJ\\perp RX$ ,那么$3BR$ 是？",
+      "target": "14"
+      },
+     {
+      "id": 15,
+      "input": "如图，已知三角形$LHR$ 中，$\\angle R=90^{\\circ},LR=6,HR=4$,以$L$ 为圆心、2为半径作圆，点$X$ 是圆$L$ 上一点，连接$RX$，点$B$ 是$RX$ 的中点，连接$HB$ ,那么$HB$ 长度的最小值和最大值之和是？",
+      "target": "10"
+      },
+     {
+      "id": 16,
+      "input": "如图，三角形LHR中，HL=HR，以LH为直径作圆K交LR于点X，交HR于点B，过点X作圆K的切线交HR于点J. 若LR=4\\sqrt{5}，tan∠LRH=2，BJ的长是多少？",
+      "target": "2",
+      "tag": "2024-哈尔滨道里二模-24"
+      },
+     {
+      "id": 17,
+      "input": "矩形LHRX中，RB平分∠HRX，交直线LX于点B，若RX=3，LB=1，则HR的长的所有可能值之和是多少？",
+      "target": "6",
+      "tag": "2024-哈尔滨sb二模-19"
+      },
+    {
+      "id": 18,
+      "input": "已知LH为圆K的直径，点R为圆K上一点，LX和过点R的切线互相垂直，垂足为X，LX交圆K于点B，若RX=2，LB=3，圆K的直径是多少？",
+      "target": "5",
+      "tag": "2024-哈尔滨dw二模-24"
+      },
+    {
+      "id": 19,
+      "input": "在直角三角形LHR中，∠HLR=90°，X为HR上的点，连结LX，将三角形LHX沿直线LX翻折，点H恰好落在边LR的中点B处，则tan∠LXB的值是多少？",
+      "target": "3",
+      "tag": "2024-哈尔滨xf二模-20"
+      },
+    {
+      "id": 20,
+      "input": "如图，点B在正方形LHRX的对角线LR上，点J在HR的延长线上，连接XJ、HB、BJ，且HB=BJ，若RB=\\sqrt{2}，tan∠RXJ=0.75，则线段XJ的长是多少？",
+      "target": "10",
+      "tag": "2024-哈尔滨ac一模-20"
+      },
+    {
+      "id": 1,
+      "input": "已知三角形ZRS相似于三角形TLU，且三角形ZRS和三角形TLU的最长边分别是5和10，如果三角形ZRS的面积是6，那么三角形TLU的面积是多少？",
+      "target": "24"
+      },
+     {
+      "id": 2,
+      "input": "如图，在三角形ZRS中，点W是重心，过点W作WT//ZS，交RS于点T，连接SW，如果三角形WST的面积是2，那么三角形ZRS的面积是多少？",
+      "target": "18"
+      },
+     {
+      "id": 3,
+      "input": "如图，已知三角形ZRS中，点T、L、U分别在边ZR、ZS、RS上，TL//RS，LU//ZR．如果TL/RS=3/5，ZR=15，那么LU是多少？",
+      "target": "6"
+      },
+     {
+      "id": 4,
+      "input": "如图，在三角形ZRS中，点W是重心，过点W作WT//RS，交边ZS于点T，联结RW，如果三角形ZRS的面积是36，那么四边形RWTS的面积是多少？",
+      "target": "16"
+      },
+     {
+      "id": 5,
+      "input": "在三角形ZRS中，∠S=90度，正方形SLTU的边SL在边RS上，顶点T、U分别在边ZR、ZS上．如果RS=3, ZS=6，那么正方形SLTU的边长是多少？",
+      "target": "2"
+      },
+     {
+      "id": 6,
+      "input": "如图，T、L分别是三角形ZRS的边ZR、ZS上的点，∠ZLT=∠R，ZU⊥TL，垂足为点U．如果ZU=2，RS=6，三角形ZRS的面积为9，那么三角形ZTL的面积是多少？",
+      "target": "4"
+      },
+     {
+      "id": 7,
+      "input": "在矩形ZRST中，ZR=25，RS=65，点L在边TS上，将矩形ZRST沿ZL翻折，点T恰好落在边RS上的点U处，那么LS的长是多少？",
+      "target": "12"
+      },
+     {
+      "id": 8,
+      "input": "如图，在矩形ZRST中，ZR=100，RS=150．点L在边ZT上，连接RL，将三角形ZRL沿着RL翻折，点Z的对应点是点U，连接UT．如果UT//RL，那么点U到ST的距离是多少？",
+      "target": "54"
+      },
+     {
+      "id": 9,
+      "input": "三角形ZRS中，∠ZSR=90°，ZS=30，RS=40，点T在边RS上，ST=10，如图所示．点L在边ZR上，将三角形RTL沿着TL翻折得三角形R’TL，其中点R与点R’对应，R’L交边ZS于点W，R’T交ZS的延长线于点H．如果三角形R’HW是等腰三角形，那么RL是多少？",
+      "target": "42"
+      },
+     {
+      "id": 10,
+      "input": "如图，在三角形ZRS中，∠S=90°，tan R=0.8，L是边ZR上一点，将三角形RSL沿直线SL翻折，点R的对应点为R’，如果ZR’//RS，那么ZL/LR的所有可能值之和是多少？",
+      "target": "2"
+      },
+     {
+      "id": 11,
+      "input": "圆J是三角形ZRS的内切圆，分别切ZR，RS，ZS于点T、L、U，∠R=42°，P是弧LU上一点，则∠TPL的度数是多少？",
+      "target": "69"
+     }
+  ]
+}

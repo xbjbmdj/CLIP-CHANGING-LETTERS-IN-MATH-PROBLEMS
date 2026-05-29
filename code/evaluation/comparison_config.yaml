@@ -1,0 +1,20 @@
+comparison_eval:
+  datasets:
+  - math_original
+  - math_variant
+  description: "Original vs Variant \u5BF9\u6BD4\u8BC4\u6D4B"
+  metrics:
+  - exact_match
+  - partial_match
+  num_samples: 100
+generation_config:
+  do_sample: true
+  max_new_tokens: 4096
+  num_return_sequences: 100
+  temperature: 0.6
+  top_p: 0.95
+model_config:
+  dtype: bfloat16
+  gpu_memory_utilization: 0.9
+  max_model_len: 4096
+  pretrained: Qwen/Qwen2.5-0.5B-Instruct

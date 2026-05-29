@@ -1,0 +1,23 @@
+# 模型配置
+model_args:
+  pretrained: "Qwen/Qwen2.5-0.5B-Instruct"
+  dtype: "bfloat16"
+  max_model_len: 4096
+  gpu_memory_utilization: 0.9
+
+# 生成配置
+generation_args:
+  max_new_tokens: 4096
+  temperature: 0.6
+  top_p: 0.95
+
+# 数据集配置
+tasks:
+  - name: "my_dataset"
+    fewshot_num: 0
+    metric: ["exact_match", "f1"]
+
+# 自定义数据集路径
+custom_tasks:
+  my_dataset:
+    path: "/root/shared-nvme/my_dataset.jsonl"  # 使用绝对路径
